@@ -11,3 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+
+class SecondActivity{
+    
+}
