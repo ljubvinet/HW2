@@ -17,11 +17,10 @@ class MainActivity : AppCompatActivity() {
         val poga: Button = findViewById(R.id.Poga)
         val teksts: TextView = findViewById(R.id.textView1)
         var clicks = 0
-        poga.text = "Spaidi mani!"
-        teksts.text = "Vēl nau spaidīc!"
+
 
         poga.setOnClickListener{
-            clicks++;
+            clicks++
             teksts.text = "$clicks"
             Toast.makeText(this,"$clicks",Toast.LENGTH_SHORT).show()
             Log.i(TAG,"klikšķis ir")
