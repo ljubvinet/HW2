@@ -1,5 +1,6 @@
 package net.ljubvi.hw2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -25,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"$clicks",Toast.LENGTH_SHORT).show()
             Log.i(TAG,"klikšķis ir")
             Log.i(TAG,"$clicks")
+            //val intent = Intent(this,Chat1::class.java)
+            //startActivity(intent)
         }
 
 
