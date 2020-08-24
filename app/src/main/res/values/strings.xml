@@ -3,14 +3,20 @@
     <string name="intro_txt">Sākums UTF8</string>
     <string name="pogas_teksts">Spaidi mani!</string>
     <string name="aicinājums">Vēl nau spaidīc</string>
-    <string name="title_activity_chat1">Chat1</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="title_activity_chat2">Chat2</string>
+
+    <string name="str_toClicker">klikšķināt līdz slikti metas</string>
+    <string name="str_toChat">Čatot pašam ar sevi</string>
+    <string name="back_to_nav">Atpakaļ uz izvēlni</string>
+    <string name="welcome_clicker">Welcome, dear clicker!</string>
+    <string name="click_true">klikšķis ir</string>
+    <string name="Enter_message">Ievadiet ziņu...</string>
+    <string name="Send_message">Sūtīt ziņu</string>
+    <string name="enter_reply">Ievadiet atbildi...</string>
+    <string name="I_replied">Es atbildēju:</string>
+    <string name="Someone_wrote">Gudrs cilvēks rakstīja:</string>
+    <string name="I_wrote">Es rakstīju:</string>
+    <string name="Someone_replied">Dikti gudrs cilvēks atbildēja:</string>
+    <string name="type_here" >Rakstīt šeit</string>
+    <string name="welcome_chatter">Welcome, dear chatter!</string>
 </resources>

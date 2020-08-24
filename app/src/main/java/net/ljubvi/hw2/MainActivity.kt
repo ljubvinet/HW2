@@ -7,27 +7,35 @@ import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_chat1.*
+import kotlinx.android.synthetic.main.activity_main.*
+
 private const val TAG = "MainActivity"
+private var clicks =0
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-        Toast.makeText(this,"Welcome, dear clicker!",Toast.LENGTH_LONG).show()
-        val poga: Button = findViewById(R.id.Poga)
-        val teksts: TextView = findViewById(R.id.textView1)
-        var clicks = 0
+        Toast.makeText(this,getString(R.string.welcome_clicker),Toast.LENGTH_LONG).show()
+
+        backToMenu3.setOnClickListener {
+            val intent = Intent(this, Navigation::class.java)
+            startActivity(intent)
+        }
 
 
-        poga.setOnClickListener{
+
+        Poga.setOnClickListener{
             clicks++
-            teksts.text = "$clicks"
-            Toast.makeText(this,"$clicks",Toast.LENGTH_SHORT).show()
-            Log.i(TAG,"klikšķis ir")
+            textView1.text = "$clicks"
+            if (clicks % 10 == 0) {
+                Toast.makeText(this, "$clicks", Toast.LENGTH_SHORT).show()
+            }
+            Log.i(TAG,getString(R.string.click_true))
             Log.i(TAG,"$clicks")
-            //val intent = Intent(this,Chat1::class.java)
-            //startActivity(intent)
+
         }
 
 
