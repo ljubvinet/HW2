@@ -19,4 +19,5 @@
     <string name="Someone_replied">Dikti gudrs cilvēks atbildēja:</string>
     <string name="type_here" >Rakstīt šeit</string>
     <string name="welcome_chatter">Welcome, dear chatter!</string>
+    <string name="Reset_counter">Atiestatīt skaitītāju</string>
 </resources>

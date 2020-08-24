@@ -25,7 +25,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+        button2.setOnClickListener{
+            clicks = 0
+            textView1.text = "$clicks"
+            Log.i(TAG,"reset done")
+        }
 
         Poga.setOnClickListener{
             clicks++
